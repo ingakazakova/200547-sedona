@@ -1,7 +1,7 @@
 ﻿# Личный проект «Седона»
 
 * Студент: [Инга Казакова](https://up.htmlacademy.ru/htmlcss/13/user/200547).
-* Наставник: [Андрей vacation_boy Рычагов] (https://htmlacademy.ru/profile/id50483).
+* Наставник: [Андрей happy_vacation_boy Рычагов] (https://htmlacademy.ru/profile/id50483).
 
 ---
 
