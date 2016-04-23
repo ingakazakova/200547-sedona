@@ -16,6 +16,9 @@
                   <a href="#">Фото и видео</a>
                 </li>
                 <li>
+                 <img src="img/1.png" width="138" height="70" alt="Sedona">
+                </li>
+                <li>
                 <a href="#">Карта штата</a>
                 </li>
                 <li>
@@ -27,59 +30,59 @@
               </header>
       <main class="container">
         <div class="index-logo">
-            <img src="img/index-logo.png" width="100%" height="200" alt="Sedona">
+            <img src="img/index-welcome.png" width="1200" height="780" alt="Sedona">
         </div>
           <div class="promo-text">
               <p>Седона - небольшой городок в Аризоне, заслуживающий большего</p> 
               <p>Рассмотрим 5 причин, почему Седона круче, чем Гранд Каньон!</p>
            </div>
-          <section class="first-reason">
-              <div class="first-reason">
-                  <h2>Настоящий городок</h2>
-                  <p>№1</p>
+          <section class="index-reason">
+              <div>
+                  <b>Настоящий городок</b>
+                  <div>№1</div>
                   <p>Седона-не аттракцион для туристов, там течет своя жизнь</p>
-                  <img src="img/index-first.png" width="66%" height="200" alt="">
+                  <img src="img/Layer%2010%20copy.png" width="800" height="256" alt="">
               </div>
           </section>
                    <section class="features">
-            <div class="features-item">
-                <img src="img/index-house.png" width="" height="" alt="">
+            <div>
+                <img src="img/house.png" width="75" height="72" alt="">
                 <b class="features-name">Жилье</b>
                 <p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
             </div>
             <div class="features-item">
-                <img src="img/index-food.png" width="" height="" alt="">
+                <img src="img/food.png" width="75" height="72" alt="">
                 <b class="features-name">Еда</b>
                 <p>Всегда заказывайте фирменный бургер. Вы не разочаруетесь!</p>
             </div>
         <div class="features-item">
-            <img src="img/index-box.png" width="" height="" alt="">
+            <img src="img/box.png" width="75" height="72" alt="">
             <b class="features-name">Сувениры</b>
             <p>Не только китайского, но и местного производства!</p>
             </div>
         </section> 
-          <section class="second-reason">
-              <img src="img/index-second.png" width="66%" height="" alt="">
-              <div class="second-reason">
-                  <h2>Там есть Мост Дьявола</h2>
-                  <p>№2</p>
+          <section class="index-reason">
+              <img src="img/Layer5.png" width="800" height="256" alt="">
+              <div>
+                  <b>Там есть Мост Дьявола</b>
+                  <div>№2</div>
                   <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
               </div>
           </section>
-          <section class="features-2">
-            <div class="features-2-item">
-                <b class="features-2-name">Небольшая площадь</b>
-                <p>№3</p>
+          <section class="features">
+            <div>
+                <b class="features-name">Небольшая площадь</b>
+                <div>№3</div>
                 <p>Все достопримечательности находятся очень близко</p>
             </div>
-            <div class="features-2-item">
-                <b class="features-2-name">Красивая дорога</b>
-                <p>№4</p>
+            <div>
+                <b class="features-name">Красивая дорога</b>
+                <div>№4</div>
                 <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
             </div>
-        <div class="features-2-item">
-            <b class="features-2-name">Мало туристов</b>
-            <p>№5</p>
+        <div>
+            <b class="features-name">Мало туристов</b>
+            <div>№5</div>
             <p>Большинство едет в Гранд Каньон и толпится там</p>
             </div>
         </section>
@@ -87,41 +90,30 @@
                   <h3>Заинтересовались?</h3>
                   <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
               </div>
-          <form class="dropdown" action="" method="post"> 
-          <input type="submit" value="Поиск гостиницы в Седоне">
-            
-                   <p>Дата заезда:</p>                       <select name="date-on">
-              </select>
-              <p>Дата выезда:</p>
-               <select name="date-off">  
-              </select>
-<p>Взрослые:</p>
-                   <select name="adults">
-    <option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5</option>
-                <option>6</option>
-                <option>7</option>
-            </select>
-                   <p>Дети:</p>
-                 <select name="children">
-                     <option>1</option>
-                <option>2</option>
-                <option>3</option>
-                <option>4</option>
-                <option>5</option>
-                <option>6</option>
-                <option>7</option>
-            </select>
-              <p><input type="submit" value="Найти"></p>
+      </main>
+          <form action="https://echo.htmlacademy.ru/">
+             <button type="submit">Поиск гостиницы в Седоне</button> 
+                    
+              <label>
+                  Дата заезда:<input type="date" name="date-on">
+              </label>                      
+              <label>
+                  Дата выезда:<input type="date" name="date-off">
+              </label>
+<label>
+    Взрослые:<input type="number" name="adults">
+    </label>              
+    <label>
+    Дети:<input type="number" name="children">
+ </label>
+                     
+              <div><input type="submit" value="Найти"></div>
           </form>
-          <img src="img/index-map.png" width="50px" height="60px" alt="">
+          <img src="img/map.png" width="1200" height="593" alt="">
           <footer class="main-footer">
     <div class="container">
         <section class="footer-teg">
-            <img src="img/index-teg" width="100%" height="" alt="">                  
+            <img src="img/index-teg" width="100" height="50" alt="">                  
        </section>
         <section class="footer-social">
              <a class="social-btn social-btn-tw" href="#">Twitter</a>

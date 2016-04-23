@@ -1,0 +1,17 @@
+body {
+font-family: PTSans regular;
+color: black;
+font-weight: bold;
+font-style: italic;
+}
+
+h1 {
+font-family: PTSans bold;
+
+
+}
+
+h2 {
+
+
+}
